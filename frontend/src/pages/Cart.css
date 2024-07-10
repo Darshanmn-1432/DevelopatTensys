@@ -1,0 +1,14 @@
+.cart-img{
+    max-height: 150px;
+    max-width: 150px;
+    object-fit: contain;
+}
+
+.cart-row{
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+.quantity-btn{
+    width: 100px;
+}

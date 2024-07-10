@@ -1,0 +1,176 @@
+# Simple React JS Project
+
+## What is the use of this Repo
+
+This Project is a Simple ReactJS Project which demonstrates the following:
+1. Creating a Component in vite+React
+2. Making HTTP calls used axios
+3. Communicating between component
+4. Using Bootstrap along with React
+5. Using Basic Routing in React
+6. Using Context API for user management tool
+7. Using Backent Node.js && Express.js framework to run back-end
+8. Using mango db - mangoosesh for database 
+
+This Project is a Simple Express.js backend Project which demonstrates the following:
+1. Implementing the api call to do CRUD operation usin express framework
+1. Create a user management database and two table and userschema 
+
+The project Template can be used to build bigger projects
+
+## Live Application URL
+
+### https://aditya-sridhar.github.io/simple-reactjs-app
+This URL has the application deployed in
+
+## Prerequisites
+ {{ FRONTEND SIDE }}
+### Install npm init vite
+Install npm package globally. This will help to easily run the project and also build the source files easily. Use the following command to install
+
+### Install npm bootstrap
+### Install npm react-bootstrap
+### Install npm react-dom
+### Install npm react-router-dom
+### Install npm sonner
+
+Install all the npm packages. Go into the project folder and type the following command to install all npm packages
+
+```bash
+npm install
+```
+
+In order to run the application Type the following command
+
+```bash
+npm run dev
+```
+
+The Application Runs on **localhost:3000**
+
+## Application design
+
+#### Components
+
+1. **Product** Component : This Component displays a list of Product. This Component gets the data from a mock API : 
+
+2. **Product Detail** Component : This Component displays a product details.
+
+3. **Cart** Component : This Component Displays the details of the selected Product cart. This Component gets user added to a cart as well. This Component is the Child Component of *Product* Component
+
+4. **Order Detail** Component : This Component Displays the details of the Ordered product.
+
+
+
+#### HTTP client
+
+**axios** library is used to make HTTP Calls
+
+#### URL
+
+The application has just one url /Product which ties to Product Detail, Cart, Order Detail Component
+
+## Resources
+
+**npm init vite** : The following link has all the commands that can be used with vite+react app
+
+**React Bootstrap && Boostrap** : Refer to https://react-bootstrap.github.io/getting-started/introduction/ to understand how to use React Bootstrap
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+ {{ BACKEND SIDE }}
+
+
+## Manual Installation
+
+npm i
+
+cd backend
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+## Commands
+
+Running in development:
+
+```bash
+node index
+
+```
+# App name
+APP_NAME = Clipkart
+
+# URL of the Mongo DB
+DATABASE_URI = mongodb://127.0.0.1:27017/UserManagement
+
+# URL frontend
+FRONTEND_URL = # default http://localhost:5173/
+
+
+### API Endpoints
+
+mongodb://127.0.0.1:27017/UserManagement
+
+POST - users/register		Signup
+POST - users/login		Login
+POST - carts/addtocart		Product add to cart
+POST - carts/showcart		List the product
+POST - carts/deleteCart		Delete all product in the cart
+POST - carts/deleteCart/:id	Delete product by id
+POST - orders/showOrder		List all orders
+POST - carts/addOrder		Add to Order
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Install Node JS
+Refer to https://nodejs.org/en/ to install nodejs
+
+### Install Express JS
+Refer to https://expressjs.com/en/starter/installing.html to install expressjs
+
+### Install nodemon
+### Install mangoose
+### Install cors
+
+
+
+
+
+**ReactJS** : Refer to https://reactjs.org/ to understand the concepts of ReactJS
+
+**Contaxt API ** : Refer to https://legacy.reactjs.org/docs/context.html
+
+**Node.js && Express.js ** : Refer to https://expressjs.com/en/guide/routing.html
+
+**Mongo DB && Mongosh** : Refer to https://www.mongodb.com/developer/languages/javascript/getting-started-with-mongodb-and-mongoose/
+
+
+
+
+
